@@ -1,5 +1,4 @@
 import pickle
-from pandas.core.frame import DataFrame
 import streamlit as st
 import pandas as pd
 
