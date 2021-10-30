@@ -2,8 +2,6 @@ import pickle
 from pandas.core.frame import DataFrame
 import streamlit as st
 import pandas as pd
-import joblib
-import base64
 
 st.set_page_config(page_title='DNA Kingdom prediction')
 st.title('DNA Kingdom prediction 👨‍🔬🧬')
