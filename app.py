@@ -10,7 +10,7 @@ upload_file=st.file_uploader('Choose a csv')
 if upload_file is not None :
     data=pd.read_csv(upload_file)
     st.write(data)
-    model = pickle.load(open("model/model.pkl", 'rb'))
+    model = pickle.load(open("model.pkl", 'rb'))
     result=pd.DataFrame(model.predict(data))
     st.dataframe(result)
 
