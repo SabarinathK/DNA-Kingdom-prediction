@@ -1,6 +1,7 @@
 import pickle
 import streamlit as st
 import pandas as pd
+import base64
 
 st.set_page_config(page_title='DNA Kingdom prediction')
 st.title('DNA Kingdom prediction 👨‍🔬🧬')
